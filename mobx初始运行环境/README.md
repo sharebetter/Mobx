@@ -23,14 +23,14 @@ ES6运行环境还需按装插件： cnpm i babel-plugin-transform-class-propert
 
 添加对应的plugins：
 ```javascript
-    module: {
+     module: {
         rules: [{
-            test:'/\.(js|jsx)$/',
+            test: /\.(js|jsx)$/,
             exclude: /node_modules/,
             use: {
                 loader: 'babel-loader',
-                option: {
-                    preset: ['env'],
+                options: {
+                    presets: ['env'],
                     plugins: ['transform-decorators-legacy','transform-class-properties']
                 }
             }
