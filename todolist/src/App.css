@@ -1,0 +1,35 @@
+body{
+  margin:0;
+  padding: 10px;
+}
+.input {
+  padding:15px;
+  border: 1px solid #ccc;
+  font-size: 24px;
+  width: 400px;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  width:370px;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.todo-item .toggle {
+  margin-right: 20px;
+}
+.todo-item .title {
+  font-size: 24px;
+  color:#000;
+  width:95%;
+}
+.todo-item .title.finished{
+  text-decoration: line-through;
+  color: #ccc;
+}
+.todo-item .cross {
+  color: red;
+}
