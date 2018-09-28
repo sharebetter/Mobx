@@ -5,7 +5,7 @@ Mobx todolist小案例
 
 #### 运行： npm start
 
-![image] (http://pexpn9gr1.bkt.clouddn.com/mobx-todoList.jpg)
+![image](http://pexpn9gr1.bkt.clouddn.com/mobx-todoList.jpg)
 
 #### 部分代码
 ```javasxript
